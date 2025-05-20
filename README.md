@@ -1,11 +1,13 @@
 # -n
- در دانشکده
-TA ی علوم کامپیوتر، دستیار آموزشی (
-کند تا )، در ساعات اداری به دانشجویان کارشناسی کمک می
-مفاهیم درس سیستم
-ها های عامل را بهتر درک کنند و به سؤالات آن
-پاسخ دهد. اما دفتر او کوچک است و فقط
-TA پنج صندلی برای انتظار دانشجویان دارد. بنابراین، برای مدیریت تعامل
-سازی یک و دانشجویان، نیاز به پیاده
-زمانی دقیق وجود دارد. 
+This problem describes a simulation of how a Teaching Assistant (TA) interacts with students in a small office. The TA provides guidance to students studying operating systems concepts but can only help one student at a time. Meanwhile, up to five students can wait in the office, and if the seats are full, new students must leave and return later.
+
+
+Key System Rules:
+1.The TA can only assist one student at a time.
+2.At most, five students can wait in the office.
+3.If no seats are available, a student must leave and try again later.
+4.If the TA is sleeping, the first arriving student wakes them up.
+5.After helping a student, the TA checks whether there are other waiting students.
+6.If yes, the TA assists the next student.
+7.If no, the TA goes back to sleep
  
